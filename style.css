@@ -1,4 +1,4 @@
-/* The page is NOT responsive. You can implement responsiveness yourself if you wanna have some fun 😃 */
+
 
 :root {
     --color-primary: #5ec576;
@@ -100,7 +100,7 @@
     color: #666;
   }
   
-  /* This is BAD for accessibility! Don't do in the real world! */
+ 
   button:focus {
     outline: none;
   }
@@ -123,8 +123,7 @@
     padding: 0 6rem;
     z-index: 100;
   }
-  
-  /* nav and stickly class at the same time */
+
   .nav.sticky {
     position: fixed;
     background-color: rgba(255, 255, 255, 0.95);
@@ -380,7 +379,7 @@
     position: relative;
   
     /* IN THE END */
-    /* overflow: hidden; */
+    overflow: hidden;
   }
   
   .slide {
@@ -398,7 +397,7 @@
   }
   
   .slide > img {
-    /* Only for images that have different size than slide */
+  
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -449,8 +448,6 @@
     cursor: pointer;
     transition: all 0.5s;
   
-    /* Only necessary when overlying images */
-    /* box-shadow: 0 0.6rem 1.5rem rgba(0, 0, 0, 0.7); */
   }
   
   .dots__dot:last-child {
