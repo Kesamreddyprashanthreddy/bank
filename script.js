@@ -100,7 +100,7 @@ const sectionobserver = new IntersectionObserver(revealsection, {
 
 allsections.forEach(function (section) {
   sectionobserver.observe(section);
-  // section.classList.add('section--hidden')
+  section.classList.add('section--hidden')
 });
 
 const images = document.querySelectorAll('img[data-src]');
